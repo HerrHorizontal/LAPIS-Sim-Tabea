@@ -1,0 +1,180 @@
+arguments:
+0 = rank target.memory <= my.requestmemory && target.cpus <= my.requestcpus = requirements 0 = rank my.cpus <= target.requestcpus = requirements 0 0.99 sg_caches_shared.csv dummycluster_408cores.csv sg_machines_shared_cache.csv week_25_0.5_0.05_16_input.json week_25_0.5_0.05_16_pjr_0 6.0 _condor_stderr
+_condor_stdout
+condor_exec.exe
+dummycluster_408cores.csv
+sg_caches_shared.csv
+sg_machines_shared_cache.csv
+week_25_0.5_0.05_16_input.json
+week_25_0.5_0.05_16_input.json
+sg_machines_shared_cache.csv
+dummycluster_408cores.csv
+sg_caches_shared.csv
+after git clone
+Branch feature/filebasedhitratecaching set up to track remote branch feature/filebasedhitratecaching from origin.
+On branch feature/filebasedhitratecaching
+Your branch is up-to-date with 'origin/feature/filebasedhitratecaching'.
+nothing to commit, working tree clean
+_condor_stderr
+_condor_stdout
+classad
+condor_exec.exe
+dummycluster_408cores.csv
+lapis
+lapis-venv
+sg_caches_shared.csv
+sg_machines_shared_cache.csv
+usim
+week_25_0.5_0.05_16_input.json
+total 80
+drwxr-xr-x 6 tfesenbecker cms 4096 Feb 15 20:15 .
+drwx------ 6 tfesenbecker cms 4096 Feb 15 20:15 ..
+-rw-r--r-- 1 tfesenbecker cms  379 Feb 15 20:15 .coveragerc
+drwxr-xr-x 8 tfesenbecker cms 4096 Feb 15 20:15 .git
+-rw-r--r-- 1 tfesenbecker cms 3066 Feb 15 20:15 .gitignore
+-rw-r--r-- 1 tfesenbecker cms  242 Feb 15 20:15 .pep8speaks.yml
+-rw-r--r-- 1 tfesenbecker cms  290 Feb 15 20:15 .pre-commit-config.yaml
+-rw-r--r-- 1 tfesenbecker cms  171 Feb 15 20:15 .readthedocs.yml
+-rw-r--r-- 1 tfesenbecker cms  717 Feb 15 20:15 .travis.yml
+-rw-r--r-- 1 tfesenbecker cms 1082 Feb 15 20:15 LICENSE
+-rw-r--r-- 1 tfesenbecker cms 1181 Feb 15 20:15 README.rst
+-rw-r--r-- 1 tfesenbecker cms 5171 Feb 15 20:15 custom_simulate.py
+-rw-r--r-- 1 tfesenbecker cms 4022 Feb 15 20:15 custom_simulate_batchsystem.py
+drwxr-xr-x 3 tfesenbecker cms 4096 Feb 15 20:15 docs
+drwxr-xr-x 9 tfesenbecker cms 4096 Feb 15 20:15 lapis
+drwxr-xr-x 7 tfesenbecker cms 4096 Feb 15 20:15 lapis_tests
+-rw-r--r-- 1 tfesenbecker cms 1901 Feb 15 20:15 monitoredpipe.py
+-rw-r--r-- 1 tfesenbecker cms 1361 Feb 15 20:15 pyproject.toml
+-rw-r--r-- 1 tfesenbecker cms  192 Feb 15 20:15 setup.cfg
+Collecting pip
+  Downloading https://files.pythonhosted.org/packages/54/0c/d01aa759fdc501a58f431eb594a17495f15b88da142ce14b5845662c13f3/pip-20.0.2-py2.py3-none-any.whl (1.4MB)
+Installing collected packages: pip
+  Found existing installation: pip 19.2.3
+    Uninstalling pip-19.2.3:
+      Successfully uninstalled pip-19.2.3
+Successfully installed pip-20.0.2
+Processing ./usim
+Collecting sortedcontainers
+  Downloading sortedcontainers-2.1.0-py2.py3-none-any.whl (28 kB)
+Installing collected packages: sortedcontainers, usim
+    Running setup.py install for usim: started
+    Running setup.py install for usim: finished with status 'done'
+Successfully installed sortedcontainers-2.1.0 usim-0.4.3
+Processing ./classad
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Collecting pyparsing
+  Downloading pyparsing-2.4.6-py2.py3-none-any.whl (67 kB)
+Building wheels for collected packages: classad
+  Building wheel for classad (PEP 517): started
+  Building wheel for classad (PEP 517): finished with status 'done'
+  Created wheel for classad: filename=classad-0.2.0-py2.py3-none-any.whl size=18960 sha256=0bd758e1d8fe03e27234e2fd4f50d557c957aff404f18d9d64e497aa279e25a7
+  Stored in directory: /local/scratch/hdd/condor/execute/dir_22600/pip-ephem-wheel-cache-oha8z4tf/wheels/72/74/7c/d7920dcb20550ee1d82f3dd1e6dd0c3d0d0980fd37744d27e8
+Successfully built classad
+Installing collected packages: pyparsing, classad
+Successfully installed classad-0.2.0 pyparsing-2.4.6
+Processing ./lapis
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Collecting click
+  Downloading Click-7.0-py2.py3-none-any.whl (81 kB)
+Requirement already satisfied: usim>=0.4.3 in ./lapis-venv/lib/python3.7/site-packages (from lapis-sim==0.3.0) (0.4.3)
+Collecting cobald
+  Downloading cobald-0.10.0-py3-none-any.whl (39 kB)
+Requirement already satisfied: sortedcontainers in ./lapis-venv/lib/python3.7/site-packages (from usim>=0.4.3->lapis-sim==0.3.0) (2.1.0)
+Collecting pyyaml
+  Downloading PyYAML-5.3.tar.gz (268 kB)
+Collecting typing
+  Downloading typing-3.7.4.1-py3-none-any.whl (25 kB)
+Collecting include
+  Downloading include-0.2.2-py2.py3-none-any.whl (14 kB)
+Collecting trio>=0.4.0
+  Downloading trio-0.13.0-py3-none-any.whl (320 kB)
+Collecting attrs>=19.2.0
+  Downloading attrs-19.3.0-py2.py3-none-any.whl (39 kB)
+Collecting outcome
+  Downloading outcome-1.0.1-py2.py3-none-any.whl (10 kB)
+Collecting idna
+  Downloading idna-2.8-py2.py3-none-any.whl (58 kB)
+Collecting async-generator>=1.9
+  Downloading async_generator-1.10-py3-none-any.whl (18 kB)
+Collecting sniffio
+  Downloading sniffio-1.1.0-py3-none-any.whl (4.5 kB)
+Building wheels for collected packages: lapis-sim
+  Building wheel for lapis-sim (PEP 517): started
+  Building wheel for lapis-sim (PEP 517): finished with status 'done'
+  Created wheel for lapis-sim: filename=lapis_sim-0.3.0-py2.py3-none-any.whl size=37490 sha256=3e9c8465bc4c6969d1a410fc1a2f10494f421f3738bfba7aa0f734e65a42237a
+  Stored in directory: /local/scratch/hdd/condor/execute/dir_22600/pip-ephem-wheel-cache-txt8pyhs/wheels/22/7d/f3/01876e567060b85dd851d9f5fc7d68ebcb137d66c0562f02d4
+Successfully built lapis-sim
+Installing collected packages: click, pyyaml, typing, include, attrs, outcome, idna, async-generator, sniffio, trio, cobald, lapis-sim
+    Running setup.py install for pyyaml: started
+    Running setup.py install for pyyaml: finished with status 'done'
+Successfully installed async-generator-1.10 attrs-19.3.0 click-7.0 cobald-0.10.0 idna-2.8 include-0.2.2 lapis-sim-0.3.0 outcome-1.0.1 pyyaml-5.3 sniffio-1.1.0 trio-0.13.0 typing-3.7.4.1
+/ceph/tfesenbecker/week_25_0.5_0.05_16_pjr_0.log
+C
+POSIX
+en_US.utf8
+6.0, week_25_0.5_0.05_16_pjr_0, week_25_0.5_0.05_16_input.json, sg_machines_shared_cache.csv, dummycluster_408cores.csv
+week_25_0.5_0.05_16_input.json sg_machines_shared_cache.csv dummycluster_408cores.csv /ceph/tfesenbecker/week_25_0.5_0.05_16_pjr_0.log 6.0 0.99
+starting static environment
+scheduler configuration: 
+ 	pre job rank: 0 
+	machine classad: requirements = target.requestcpus <= my.cpus
+    rank = 0
+	job classad: 
+requirements = my.requestcpus <= target.cpus && my.requestmemory <= target.memory
+rank = 1
+
+[lapis-1581794161.167737] running until None
+[lapis-1581794161.167737] Starting simulation at 0
+[lapis-1581794161.167737] Finished simulation at 696300.0
+total 84K
+drwxr-xr-x  7 tfesenbecker cms 4.0K Feb 15 20:16 .
+drwx------  6 tfesenbecker cms 4.0K Feb 15 20:16 ..
+-rw-r--r--  1 tfesenbecker cms  379 Feb 15 20:15 .coveragerc
+-rw-r--r--  1 tfesenbecker cms 4.0K Feb 15 20:15 custom_simulate_batchsystem.py
+-rw-r--r--  1 tfesenbecker cms 5.1K Feb 15 20:15 custom_simulate.py
+drwxr-xr-x  3 tfesenbecker cms 4.0K Feb 15 20:15 docs
+drwxr-xr-x  8 tfesenbecker cms 4.0K Feb 15 20:15 .git
+-rw-r--r--  1 tfesenbecker cms 3.0K Feb 15 20:15 .gitignore
+drwxr-xr-x 10 tfesenbecker cms 4.0K Feb 15 20:16 lapis
+drwxr-xr-x  7 tfesenbecker cms 4.0K Feb 15 20:15 lapis_tests
+-rw-r--r--  1 tfesenbecker cms 1.1K Feb 15 20:15 LICENSE
+-rw-r--r--  1 tfesenbecker cms 1.9K Feb 15 20:15 monitoredpipe.py
+-rw-r--r--  1 tfesenbecker cms  242 Feb 15 20:15 .pep8speaks.yml
+-rw-r--r--  1 tfesenbecker cms  290 Feb 15 20:15 .pre-commit-config.yaml
+drwxr-xr-x  2 tfesenbecker cms 4.0K Feb 15 20:16 __pycache__
+-rw-r--r--  1 tfesenbecker cms 1.4K Feb 15 20:15 pyproject.toml
+-rw-r--r--  1 tfesenbecker cms 1.2K Feb 15 20:15 README.rst
+-rw-r--r--  1 tfesenbecker cms  171 Feb 15 20:15 .readthedocs.yml
+-rw-r--r--  1 tfesenbecker cms  192 Feb 15 20:15 setup.cfg
+-rw-r--r--  1 tfesenbecker cms  717 Feb 15 20:15 .travis.yml
+total 71M
+drwx------ 6 tfesenbecker cms    4.0K Feb 15 20:16 .
+drwxr-xr-x 3 root         root   4.0K Feb 15 20:15 ..
+-rwx------ 1 tfesenbecker cms      48 Feb 15 20:14 .chirp.config
+drwxr-xr-x 6 tfesenbecker cms    4.0K Feb 15 20:15 classad
+-rwxr-xr-x 1 tfesenbecker cms    1.7K Feb 15 20:14 condor_exec.exe
+-rw-r--r-- 1 tfesenbecker cms    1.6K Feb 15 20:16 _condor_stderr
+-rw-r--r-- 1 tfesenbecker cms    8.3K Feb 15 21:04 _condor_stdout
+-rw-r--r-- 1 tfesenbecker cms     104 Feb 15 20:14 dummycluster_408cores.csv
+-rw-r--r-- 1 condor       condor 5.0K Feb 15 20:14 .job.ad
+drwxr-xr-x 7 tfesenbecker cms    4.0K Feb 15 20:16 lapis
+drwxr-xr-x 5 tfesenbecker cms    4.0K Feb 15 20:15 lapis-venv
+-rw-r--r-- 1 condor       condor 9.6K Feb 15 20:14 .machine.ad
+-rw-r--r-- 1 tfesenbecker cms      65 Feb 15 20:14 sg_caches_shared.csv
+-rw-r--r-- 1 tfesenbecker cms     292 Feb 15 20:14 sg_machines_shared_cache.csv
+drwxr-xr-x 8 tfesenbecker cms    4.0K Feb 15 20:15 usim
+-rw-r--r-- 1 tfesenbecker cms     71M Feb 15 20:14 week_25_0.5_0.05_16_input.json

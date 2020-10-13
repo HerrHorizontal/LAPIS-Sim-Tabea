@@ -1,0 +1,26 @@
+000 (174186.000.000) 02/15 18:10:03 Job submitted from host: <129.13.101.151:9618?addrs=[2a00-1398-5-fe01-ec4-7aff-fede-e4ae]-9618+129.13.101.151-9618&noUDP&sock=9929_0bef_4>
+...
+001 (174186.000.000) 02/15 18:10:54 Job executing on host: <129.13.102.223:9618?addrs=129.13.102.223-9618&noUDP&sock=2227_32c5_4>
+...
+006 (174186.000.000) 02/15 18:11:03 Image size of job updated: 24
+	24  -  MemoryUsage of job (MB)
+	25416  -  ResidentSetSize of job (KB)
+...
+006 (174186.000.000) 02/15 18:12:33 Image size of job updated: 430
+	430  -  MemoryUsage of job (MB)
+	440448  -  ResidentSetSize of job (KB)
+...
+004 (174186.000.000) 02/15 18:12:33 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:01:05, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	7013  -  Run Bytes Sent By Job
+	74028096  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :    90823  1000000   1201560 
+	   Memory (MB)          :      430     2100      2100 
+...
+009 (174186.000.000) 02/15 18:12:34 Job was aborted by the user.
+	via condor_rm (by user tfesenbecker)
+...

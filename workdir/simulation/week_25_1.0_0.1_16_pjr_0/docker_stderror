@@ -1,0 +1,16 @@
+Unable to find image 'mschnepf/slc7-condocker:python37' locally
+python37: Pulling from mschnepf/slc7-condocker
+5b3f21ee06c1: Already exists
+d24c2ad0abdf: Already exists
+f66316910dbb: Already exists
+f0ec22d6d641: Already exists
+6d6628dfbef3: Already exists
+da3e7782f5ae: Already exists
+e76337196ec7: Already exists
+54a4337d4135: Pulling fs layer
+76c8ad70692f: Pulling fs layer
+76c8ad70692f: Download complete
+54a4337d4135: Pull complete
+76c8ad70692f: Pull complete
+Digest: sha256:89ea731e8b12bcd79934bd286a9c79582192dda726cb1ee66d16e1dd2ced8576
+Status: Image is up to date for mschnepf/slc7-condocker:python37

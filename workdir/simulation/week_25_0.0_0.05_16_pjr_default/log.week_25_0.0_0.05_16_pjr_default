@@ -1,0 +1,123 @@
+000 (174321.000.000) 02/15 18:14:38 Job submitted from host: <129.13.101.151:9618?addrs=[2a00-1398-5-fe01-ec4-7aff-fede-e4ae]-9618+129.13.101.151-9618&noUDP&sock=9929_0bef_4>
+...
+001 (174321.000.000) 02/15 18:15:25 Job executing on host: <129.13.102.228:9618?addrs=129.13.102.228-9618&noUDP&sock=1959_eaee_1055>
+...
+006 (174321.000.000) 02/15 18:15:33 Image size of job updated: 17
+	17  -  MemoryUsage of job (MB)
+	18284  -  ResidentSetSize of job (KB)
+...
+005 (174321.000.000) 02/15 18:15:36 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3167  -  Run Bytes Sent By Job
+	74028096  -  Run Bytes Received By Job
+	3167  -  Total Bytes Sent By Job
+	74028096  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :    82516  1000000   1226060 
+	   Memory (MB)          :       17     2100      2100 
+...
+000 (174454.000.000) 02/15 18:21:52 Job submitted from host: <129.13.101.151:9618?addrs=[2a00-1398-5-fe01-ec4-7aff-fede-e4ae]-9618+129.13.101.151-9618&noUDP&sock=9929_0bef_4>
+...
+007 (174454.000.000) 02/15 18:22:22 Shadow exception!
+	Error from slot1@ekplx88.ekp.kit.edu: SHADOW at 129.13.101.151 failed to send file(s) to <129.13.102.228:37235>: error reading from /ceph/tfesenbecker/simulation_environment/fullsimulation/resources/dummycluster_408.csv: (errno 2) No such file or directory; STARTER failed to receive file(s) from <129.13.101.151:9618>
+	0  -  Run Bytes Sent By Job
+	74027992  -  Run Bytes Received By Job
+...
+012 (174454.000.000) 02/15 18:22:22 Job was held.
+	Error from slot1@ekplx88.ekp.kit.edu: SHADOW at 129.13.101.151 failed to send file(s) to <129.13.102.228:37235>: error reading from /ceph/tfesenbecker/simulation_environment/fullsimulation/resources/dummycluster_408.csv: (errno 2) No such file or directory; STARTER failed to receive file(s) from <129.13.101.151:9618>
+	Code 13 Subcode 2
+...
+009 (174454.000.000) 02/15 18:23:45 Job was aborted by the user.
+	via condor_rm (by user tfesenbecker)
+...
+000 (174587.000.000) 02/15 18:24:02 Job submitted from host: <129.13.101.151:9618?addrs=[2a00-1398-5-fe01-ec4-7aff-fede-e4ae]-9618+129.13.101.151-9618&noUDP&sock=9929_0bef_4>
+...
+001 (174587.000.000) 02/15 18:24:55 Job executing on host: <129.13.102.228:9618?addrs=129.13.102.228-9618&noUDP&sock=1959_eaee_1055>
+...
+006 (174587.000.000) 02/15 18:25:04 Image size of job updated: 14
+	14  -  MemoryUsage of job (MB)
+	14940  -  ResidentSetSize of job (KB)
+...
+005 (174587.000.000) 02/15 18:25:07 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3212  -  Run Bytes Sent By Job
+	74028096  -  Run Bytes Received By Job
+	3212  -  Total Bytes Sent By Job
+	74028096  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :    82516  1000000   1226004 
+	   Memory (MB)          :       14     2100      2100 
+...
+000 (174720.000.000) 02/15 19:51:01 Job submitted from host: <129.13.101.151:9618?addrs=[2a00-1398-5-fe01-ec4-7aff-fede-e4ae]-9618+129.13.101.151-9618&noUDP&sock=9929_0bef_4>
+...
+001 (174720.000.000) 02/15 19:51:56 Job executing on host: <129.13.102.228:9618?addrs=129.13.102.228-9618&noUDP&sock=1959_eaee_1055>
+...
+006 (174720.000.000) 02/15 19:52:04 Image size of job updated: 16
+	16  -  MemoryUsage of job (MB)
+	16872  -  ResidentSetSize of job (KB)
+...
+006 (174720.000.000) 02/15 19:57:05 Image size of job updated: 419
+	419  -  MemoryUsage of job (MB)
+	429496  -  ResidentSetSize of job (KB)
+...
+006 (174720.000.000) 02/15 20:02:06 Image size of job updated: 434
+	434  -  MemoryUsage of job (MB)
+	444812  -  ResidentSetSize of job (KB)
+...
+006 (174720.000.000) 02/15 20:07:07 Image size of job updated: 447
+	447  -  MemoryUsage of job (MB)
+	458268  -  ResidentSetSize of job (KB)
+...
+006 (174720.000.000) 02/15 20:12:07 Image size of job updated: 464
+	464  -  MemoryUsage of job (MB)
+	475452  -  ResidentSetSize of job (KB)
+...
+006 (174720.000.000) 02/15 20:17:07 Image size of job updated: 486
+	486  -  MemoryUsage of job (MB)
+	498476  -  ResidentSetSize of job (KB)
+...
+006 (174720.000.000) 02/15 20:22:07 Image size of job updated: 509
+	509  -  MemoryUsage of job (MB)
+	521676  -  ResidentSetSize of job (KB)
+...
+006 (174720.000.000) 02/15 20:27:08 Image size of job updated: 574
+	574  -  MemoryUsage of job (MB)
+	588020  -  ResidentSetSize of job (KB)
+...
+006 (174720.000.000) 02/15 20:32:09 Image size of job updated: 608
+	608  -  MemoryUsage of job (MB)
+	623532  -  ResidentSetSize of job (KB)
+...
+006 (174720.000.000) 02/15 20:37:10 Image size of job updated: 730
+	730  -  MemoryUsage of job (MB)
+	748160  -  ResidentSetSize of job (KB)
+...
+006 (174720.000.000) 02/15 20:39:27 Image size of job updated: 833
+	833  -  MemoryUsage of job (MB)
+	853380  -  ResidentSetSize of job (KB)
+...
+005 (174720.000.000) 02/15 20:39:28 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:45:12, Sys 0 00:00:16  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:45:12, Sys 0 00:00:16  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	9478  -  Run Bytes Sent By Job
+	74028184  -  Run Bytes Received By Job
+	9478  -  Total Bytes Sent By Job
+	74028184  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :    90829  1000000   1225468 
+	   Memory (MB)          :      833     2100      2100 
+...

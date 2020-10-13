@@ -1,0 +1,263 @@
+000 (174346.000.000) 02/15 18:14:43 Job submitted from host: <129.13.101.151:9618?addrs=[2a00-1398-5-fe01-ec4-7aff-fede-e4ae]-9618+129.13.101.151-9618&noUDP&sock=9929_0bef_4>
+...
+007 (174346.000.000) 02/15 18:15:53 Shadow exception!
+	Error from slot1@ekplx5.ekp.kit.edu: SHADOW at 129.13.101.151 failed to send file(s) to <129.13.102.145:34609>: error reading from /ceph/tfesenbecker/simulation_environment/fullsimulation/resources/dummycluster_14.csv: (errno 2) No such file or directory; STARTER failed to receive file(s) from <129.13.101.151:9618>
+	0  -  Run Bytes Sent By Job
+	83981488  -  Run Bytes Received By Job
+...
+012 (174346.000.000) 02/15 18:15:53 Job was held.
+	Error from slot1@ekplx5.ekp.kit.edu: SHADOW at 129.13.101.151 failed to send file(s) to <129.13.102.145:34609>: error reading from /ceph/tfesenbecker/simulation_environment/fullsimulation/resources/dummycluster_14.csv: (errno 2) No such file or directory; STARTER failed to receive file(s) from <129.13.101.151:9618>
+	Code 13 Subcode 2
+...
+009 (174346.000.000) 02/15 18:21:20 Job was aborted by the user.
+	via condor_rm (by user tfesenbecker)
+...
+000 (174479.000.000) 02/15 18:21:55 Job submitted from host: <129.13.101.151:9618?addrs=[2a00-1398-5-fe01-ec4-7aff-fede-e4ae]-9618+129.13.101.151-9618&noUDP&sock=9929_0bef_4>
+...
+007 (174479.000.000) 02/15 18:22:53 Shadow exception!
+	Error from slot1@ekplx83.ekp.kit.edu: SHADOW at 129.13.101.151 failed to send file(s) to <129.13.102.223:40493>: error reading from /ceph/tfesenbecker/simulation_environment/fullsimulation/resources/dummycluster_1428.csv: (errno 2) No such file or directory; STARTER failed to receive file(s) from <129.13.101.151:9618>
+	0  -  Run Bytes Sent By Job
+	83981488  -  Run Bytes Received By Job
+...
+012 (174479.000.000) 02/15 18:22:53 Job was held.
+	Error from slot1@ekplx83.ekp.kit.edu: SHADOW at 129.13.101.151 failed to send file(s) to <129.13.102.223:40493>: error reading from /ceph/tfesenbecker/simulation_environment/fullsimulation/resources/dummycluster_1428.csv: (errno 2) No such file or directory; STARTER failed to receive file(s) from <129.13.101.151:9618>
+	Code 13 Subcode 2
+...
+009 (174479.000.000) 02/15 18:23:32 Job was aborted by the user.
+	via condor_rm (by user tfesenbecker)
+...
+000 (174612.000.000) 02/15 18:24:06 Job submitted from host: <129.13.101.151:9618?addrs=[2a00-1398-5-fe01-ec4-7aff-fede-e4ae]-9618+129.13.101.151-9618&noUDP&sock=9929_0bef_4>
+...
+001 (174612.000.000) 02/15 18:25:22 Job executing on host: <129.13.101.148:9618?addrs=129.13.101.148-9618&alias=sg04.etp.kit.edu&noUDP&sock=startd_4311_90de_4>
+...
+006 (174612.000.000) 02/15 18:25:31 Image size of job updated: 3
+	3  -  MemoryUsage of job (MB)
+	3800  -  ResidentSetSize of job (KB)
+...
+006 (174612.000.000) 02/15 18:30:32 Image size of job updated: 406
+	406  -  MemoryUsage of job (MB)
+	416368  -  ResidentSetSize of job (KB)
+...
+006 (174612.000.000) 02/15 18:35:32 Image size of job updated: 447
+	447  -  MemoryUsage of job (MB)
+	458020  -  ResidentSetSize of job (KB)
+...
+006 (174612.000.000) 02/15 18:40:33 Image size of job updated: 472
+	472  -  MemoryUsage of job (MB)
+	483756  -  ResidentSetSize of job (KB)
+...
+006 (174612.000.000) 02/15 18:45:34 Image size of job updated: 485
+	485  -  MemoryUsage of job (MB)
+	497604  -  ResidentSetSize of job (KB)
+...
+006 (174612.000.000) 02/15 18:50:34 Image size of job updated: 496
+	496  -  MemoryUsage of job (MB)
+	507968  -  ResidentSetSize of job (KB)
+...
+006 (174612.000.000) 02/15 18:55:36 Image size of job updated: 503
+	503  -  MemoryUsage of job (MB)
+	515764  -  ResidentSetSize of job (KB)
+...
+006 (174612.000.000) 02/15 19:00:36 Image size of job updated: 508
+	508  -  MemoryUsage of job (MB)
+	521068  -  ResidentSetSize of job (KB)
+...
+006 (174612.000.000) 02/15 19:05:36 Image size of job updated: 519
+	519  -  MemoryUsage of job (MB)
+	531912  -  ResidentSetSize of job (KB)
+...
+006 (174612.000.000) 02/15 19:10:37 Image size of job updated: 528
+	528  -  MemoryUsage of job (MB)
+	541584  -  ResidentSetSize of job (KB)
+...
+006 (174612.000.000) 02/15 19:15:37 Image size of job updated: 573
+	573  -  MemoryUsage of job (MB)
+	587096  -  ResidentSetSize of job (KB)
+...
+006 (174612.000.000) 02/15 19:20:38 Image size of job updated: 586
+	586  -  MemoryUsage of job (MB)
+	600776  -  ResidentSetSize of job (KB)
+...
+006 (174612.000.000) 02/15 19:25:38 Image size of job updated: 594
+	594  -  MemoryUsage of job (MB)
+	609100  -  ResidentSetSize of job (KB)
+...
+006 (174612.000.000) 02/15 19:30:38 Image size of job updated: 607
+	607  -  MemoryUsage of job (MB)
+	621704  -  ResidentSetSize of job (KB)
+...
+006 (174612.000.000) 02/15 19:35:39 Image size of job updated: 620
+	620  -  MemoryUsage of job (MB)
+	635712  -  ResidentSetSize of job (KB)
+...
+006 (174612.000.000) 02/15 19:40:40 Image size of job updated: 636
+	636  -  MemoryUsage of job (MB)
+	651276  -  ResidentSetSize of job (KB)
+...
+006 (174612.000.000) 02/15 19:45:41 Image size of job updated: 660
+	660  -  MemoryUsage of job (MB)
+	676156  -  ResidentSetSize of job (KB)
+...
+006 (174612.000.000) 02/15 19:50:42 Image size of job updated: 702
+	702  -  MemoryUsage of job (MB)
+	718908  -  ResidentSetSize of job (KB)
+...
+000 (174745.000.000) 02/15 19:51:05 Job submitted from host: <129.13.101.151:9618?addrs=[2a00-1398-5-fe01-ec4-7aff-fede-e4ae]-9618+129.13.101.151-9618&noUDP&sock=9929_0bef_4>
+...
+006 (174612.000.000) 02/15 19:54:18 Image size of job updated: 731
+	731  -  MemoryUsage of job (MB)
+	748980  -  ResidentSetSize of job (KB)
+...
+005 (174612.000.000) 02/15 19:54:19 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 01:27:21, Sys 0 00:00:24  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 01:27:21, Sys 0 00:00:24  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	9956  -  Run Bytes Sent By Job
+	83981592  -  Run Bytes Received By Job
+	9956  -  Total Bytes Sent By Job
+	83981592  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.00        1         1 
+	   Disk (KB)            : 100549     1000000   1342266 
+	   Memory (MB)          :    731        2100      2176 
+...
+001 (174745.000.000) 02/15 19:56:52 Job executing on host: <129.13.102.193:9618?addrs=129.13.102.193-9618&noUDP&sock=1593_3e75_4>
+...
+006 (174745.000.000) 02/15 20:02:01 Image size of job updated: 563
+	563  -  MemoryUsage of job (MB)
+	576696  -  ResidentSetSize of job (KB)
+...
+010 (174745.000.000) 02/15 20:04:32 Job was suspended.
+	Number of processes actually suspended: 1
+...
+006 (174745.000.000) 02/15 20:04:32 Image size of job updated: 618
+	618  -  MemoryUsage of job (MB)
+	632848  -  ResidentSetSize of job (KB)
+...
+011 (174745.000.000) 02/15 20:06:34 Job was unsuspended.
+...
+006 (174745.000.000) 02/15 20:06:34 Image size of job updated: 627
+	627  -  MemoryUsage of job (MB)
+	642088  -  ResidentSetSize of job (KB)
+...
+006 (174745.000.000) 02/15 20:07:01 Image size of job updated: 640
+	640  -  MemoryUsage of job (MB)
+	655704  -  ResidentSetSize of job (KB)
+...
+006 (174745.000.000) 02/15 20:12:02 Image size of job updated: 672
+	672  -  MemoryUsage of job (MB)
+	688908  -  ResidentSetSize of job (KB)
+...
+010 (174745.000.000) 02/15 20:13:04 Job was suspended.
+	Number of processes actually suspended: 1
+...
+006 (174745.000.000) 02/15 20:13:04 Image size of job updated: 680
+	680  -  MemoryUsage of job (MB)
+	696600  -  ResidentSetSize of job (KB)
+...
+011 (174745.000.000) 02/15 20:15:10 Job was unsuspended.
+...
+006 (174745.000.000) 02/15 20:15:10 Image size of job updated: 681
+	681  -  MemoryUsage of job (MB)
+	697440  -  ResidentSetSize of job (KB)
+...
+006 (174745.000.000) 02/15 20:17:02 Image size of job updated: 688
+	688  -  MemoryUsage of job (MB)
+	704676  -  ResidentSetSize of job (KB)
+...
+006 (174745.000.000) 02/15 20:22:03 Image size of job updated: 718
+	718  -  MemoryUsage of job (MB)
+	735300  -  ResidentSetSize of job (KB)
+...
+010 (174745.000.000) 02/15 20:23:05 Job was suspended.
+	Number of processes actually suspended: 1
+...
+006 (174745.000.000) 02/15 20:23:05 Image size of job updated: 722
+	722  -  MemoryUsage of job (MB)
+	739576  -  ResidentSetSize of job (KB)
+...
+011 (174745.000.000) 02/15 20:25:06 Job was unsuspended.
+...
+006 (174745.000.000) 02/15 20:25:06 Image size of job updated: 722
+	722  -  MemoryUsage of job (MB)
+	739984  -  ResidentSetSize of job (KB)
+...
+006 (174745.000.000) 02/15 20:27:03 Image size of job updated: 727
+	727  -  MemoryUsage of job (MB)
+	745260  -  ResidentSetSize of job (KB)
+...
+010 (174745.000.000) 02/15 20:28:40 Job was suspended.
+	Number of processes actually suspended: 1
+...
+006 (174745.000.000) 02/15 20:28:40 Image size of job updated: 735
+	735  -  MemoryUsage of job (MB)
+	753328  -  ResidentSetSize of job (KB)
+...
+011 (174745.000.000) 02/15 20:30:45 Job was unsuspended.
+...
+006 (174745.000.000) 02/15 20:30:45 Image size of job updated: 736
+	736  -  MemoryUsage of job (MB)
+	753868  -  ResidentSetSize of job (KB)
+...
+006 (174745.000.000) 02/15 20:32:04 Image size of job updated: 740
+	740  -  MemoryUsage of job (MB)
+	758484  -  ResidentSetSize of job (KB)
+...
+006 (174745.000.000) 02/15 20:37:04 Image size of job updated: 765
+	765  -  MemoryUsage of job (MB)
+	784376  -  ResidentSetSize of job (KB)
+...
+010 (174745.000.000) 02/15 20:39:57 Job was suspended.
+	Number of processes actually suspended: 1
+...
+006 (174745.000.000) 02/15 20:39:57 Image size of job updated: 783
+	783  -  MemoryUsage of job (MB)
+	802288  -  ResidentSetSize of job (KB)
+...
+011 (174745.000.000) 02/15 20:42:03 Job was unsuspended.
+...
+006 (174745.000.000) 02/15 20:42:06 Image size of job updated: 783
+	783  -  MemoryUsage of job (MB)
+	802528  -  ResidentSetSize of job (KB)
+...
+006 (174745.000.000) 02/15 20:47:06 Image size of job updated: 845
+	845  -  MemoryUsage of job (MB)
+	865800  -  ResidentSetSize of job (KB)
+...
+006 (174745.000.000) 02/15 20:52:06 Image size of job updated: 888
+	888  -  MemoryUsage of job (MB)
+	909376  -  ResidentSetSize of job (KB)
+...
+006 (174745.000.000) 02/15 20:57:07 Image size of job updated: 957
+	957  -  MemoryUsage of job (MB)
+	979976  -  ResidentSetSize of job (KB)
+...
+006 (174745.000.000) 02/15 21:02:08 Image size of job updated: 1030
+	1030  -  MemoryUsage of job (MB)
+	1055716  -  ResidentSetSize of job (KB)
+...
+006 (174745.000.000) 02/15 21:07:08 Image size of job updated: 1137
+	1137  -  MemoryUsage of job (MB)
+	1165136  -  ResidentSetSize of job (KB)
+...
+006 (174745.000.000) 02/15 21:10:34 Image size of job updated: 1221
+	1221  -  MemoryUsage of job (MB)
+	1250556  -  ResidentSetSize of job (KB)
+...
+005 (174745.000.000) 02/15 21:10:35 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:58:28, Sys 0 00:00:29  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:58:28, Sys 0 00:00:29  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	11193  -  Run Bytes Sent By Job
+	83981688  -  Run Bytes Received By Job
+	11193  -  Total Bytes Sent By Job
+	83981688  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :   100551  1000000  18199133 
+	   Memory (MB)          :     1221     2100      2100 
+...

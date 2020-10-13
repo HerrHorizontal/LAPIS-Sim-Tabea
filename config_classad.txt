@@ -1,0 +1,3 @@
+0
+'requirements\ =\ target.requestcpus\ <=\ my.cpus\ rank\ =\ 0'
+'requirements\ =\ my.requestcpus\ <=\ target.cpus\ &&\ my.requestmemory\ <=\ target.memory\ rank\ =\ 0 '

@@ -1,0 +1,186 @@
+000 (174339.000.000) 02/15 18:14:41 Job submitted from host: <129.13.101.151:9618?addrs=[2a00-1398-5-fe01-ec4-7aff-fede-e4ae]-9618+129.13.101.151-9618&noUDP&sock=9929_0bef_4>
+...
+001 (174339.000.000) 02/15 18:15:28 Job executing on host: <129.13.101.148:9618?addrs=129.13.101.148-9618&alias=sg04.etp.kit.edu&noUDP&sock=startd_4311_90de_4>
+...
+006 (174339.000.000) 02/15 18:15:37 Image size of job updated: 3
+	3  -  MemoryUsage of job (MB)
+	3796  -  ResidentSetSize of job (KB)
+...
+006 (174339.000.000) 02/15 18:20:38 Image size of job updated: 842
+	842  -  MemoryUsage of job (MB)
+	862628  -  ResidentSetSize of job (KB)
+...
+004 (174339.000.000) 02/15 18:21:23 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:05:20, Sys 0 00:00:07  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	6951  -  Run Bytes Sent By Job
+	73867800  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :    90670  1000000   1342266 
+	   Memory (MB)          :      842     2100      2176 
+...
+009 (174339.000.000) 02/15 18:21:24 Job was aborted by the user.
+	via condor_rm (by user tfesenbecker)
+...
+000 (174472.000.000) 02/15 18:21:54 Job submitted from host: <129.13.101.151:9618?addrs=[2a00-1398-5-fe01-ec4-7aff-fede-e4ae]-9618+129.13.101.151-9618&noUDP&sock=9929_0bef_4>
+...
+007 (174472.000.000) 02/15 18:22:26 Shadow exception!
+	Error from slot1@sg04.etp.kit.edu: SHADOW at 129.13.101.151 failed to send file(s) to <129.13.101.148:33385>: error reading from /ceph/tfesenbecker/simulation_environment/fullsimulation/resources/dummycluster_408.csv: (errno 2) No such file or directory; STARTER failed to receive file(s) from <129.13.101.151:9618>
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (174472.000.000) 02/15 18:22:27 Job was held.
+	Error from slot1@sg04.etp.kit.edu: SHADOW at 129.13.101.151 failed to send file(s) to <129.13.101.148:33385>: error reading from /ceph/tfesenbecker/simulation_environment/fullsimulation/resources/dummycluster_408.csv: (errno 2) No such file or directory; STARTER failed to receive file(s) from <129.13.101.151:9618>
+	Code 13 Subcode 2
+...
+009 (174472.000.000) 02/15 18:23:21 Job was aborted by the user.
+	via condor_rm (by user tfesenbecker)
+...
+000 (174605.000.000) 02/15 18:24:04 Job submitted from host: <129.13.101.151:9618?addrs=[2a00-1398-5-fe01-ec4-7aff-fede-e4ae]-9618+129.13.101.151-9618&noUDP&sock=9929_0bef_4>
+...
+001 (174605.000.000) 02/15 18:24:56 Job executing on host: <129.13.101.148:9618?addrs=129.13.101.148-9618&alias=sg04.etp.kit.edu&noUDP&sock=startd_4311_90de_4>
+...
+006 (174605.000.000) 02/15 18:25:04 Image size of job updated: 3
+	3  -  MemoryUsage of job (MB)
+	4060  -  ResidentSetSize of job (KB)
+...
+006 (174605.000.000) 02/15 18:30:04 Image size of job updated: 318
+	318  -  MemoryUsage of job (MB)
+	326028  -  ResidentSetSize of job (KB)
+...
+006 (174605.000.000) 02/15 18:35:05 Image size of job updated: 334
+	334  -  MemoryUsage of job (MB)
+	342564  -  ResidentSetSize of job (KB)
+...
+006 (174605.000.000) 02/15 18:40:05 Image size of job updated: 337
+	337  -  MemoryUsage of job (MB)
+	345476  -  ResidentSetSize of job (KB)
+...
+006 (174605.000.000) 02/15 18:45:05 Image size of job updated: 349
+	349  -  MemoryUsage of job (MB)
+	358376  -  ResidentSetSize of job (KB)
+...
+006 (174605.000.000) 02/15 18:50:06 Image size of job updated: 354
+	354  -  MemoryUsage of job (MB)
+	363072  -  ResidentSetSize of job (KB)
+...
+006 (174605.000.000) 02/15 18:55:06 Image size of job updated: 361
+	361  -  MemoryUsage of job (MB)
+	370480  -  ResidentSetSize of job (KB)
+...
+006 (174605.000.000) 02/15 19:00:06 Image size of job updated: 366
+	366  -  MemoryUsage of job (MB)
+	375620  -  ResidentSetSize of job (KB)
+...
+006 (174605.000.000) 02/15 19:05:07 Image size of job updated: 374
+	374  -  MemoryUsage of job (MB)
+	383576  -  ResidentSetSize of job (KB)
+...
+006 (174605.000.000) 02/15 19:10:07 Image size of job updated: 382
+	382  -  MemoryUsage of job (MB)
+	391704  -  ResidentSetSize of job (KB)
+...
+006 (174605.000.000) 02/15 19:15:08 Image size of job updated: 387
+	387  -  MemoryUsage of job (MB)
+	396300  -  ResidentSetSize of job (KB)
+...
+006 (174605.000.000) 02/15 19:20:09 Image size of job updated: 396
+	396  -  MemoryUsage of job (MB)
+	406120  -  ResidentSetSize of job (KB)
+...
+006 (174605.000.000) 02/15 19:25:09 Image size of job updated: 446
+	446  -  MemoryUsage of job (MB)
+	457712  -  ResidentSetSize of job (KB)
+...
+006 (174605.000.000) 02/15 19:30:10 Image size of job updated: 458
+	458  -  MemoryUsage of job (MB)
+	469324  -  ResidentSetSize of job (KB)
+...
+006 (174605.000.000) 02/15 19:35:11 Image size of job updated: 491
+	491  -  MemoryUsage of job (MB)
+	503460  -  ResidentSetSize of job (KB)
+...
+006 (174605.000.000) 02/15 19:39:40 Image size of job updated: 605
+	605  -  MemoryUsage of job (MB)
+	620360  -  ResidentSetSize of job (KB)
+...
+005 (174605.000.000) 02/15 19:39:42 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 01:13:35, Sys 0 00:00:15  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 01:13:35, Sys 0 00:00:15  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	9938  -  Run Bytes Sent By Job
+	73867800  -  Run Bytes Received By Job
+	9938  -  Total Bytes Sent By Job
+	73867800  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.00        1         1 
+	   Disk (KB)            : 90673     1000000   1342266 
+	   Memory (MB)          :   605        2100      2176 
+...
+000 (174738.000.000) 02/15 19:51:04 Job submitted from host: <129.13.101.151:9618?addrs=[2a00-1398-5-fe01-ec4-7aff-fede-e4ae]-9618+129.13.101.151-9618&noUDP&sock=9929_0bef_4>
+...
+001 (174738.000.000) 02/15 19:52:23 Job executing on host: <129.13.102.228:9618?addrs=129.13.102.228-9618&noUDP&sock=1959_eaee_1055>
+...
+006 (174738.000.000) 02/15 19:52:31 Image size of job updated: 21
+	21  -  MemoryUsage of job (MB)
+	22272  -  ResidentSetSize of job (KB)
+...
+006 (174738.000.000) 02/15 19:57:32 Image size of job updated: 435
+	435  -  MemoryUsage of job (MB)
+	445668  -  ResidentSetSize of job (KB)
+...
+006 (174738.000.000) 02/15 20:02:33 Image size of job updated: 454
+	454  -  MemoryUsage of job (MB)
+	465692  -  ResidentSetSize of job (KB)
+...
+006 (174738.000.000) 02/15 20:07:34 Image size of job updated: 462
+	462  -  MemoryUsage of job (MB)
+	473904  -  ResidentSetSize of job (KB)
+...
+006 (174738.000.000) 02/15 20:12:34 Image size of job updated: 473
+	473  -  MemoryUsage of job (MB)
+	484704  -  ResidentSetSize of job (KB)
+...
+006 (174738.000.000) 02/15 20:17:34 Image size of job updated: 491
+	491  -  MemoryUsage of job (MB)
+	502924  -  ResidentSetSize of job (KB)
+...
+006 (174738.000.000) 02/15 20:22:34 Image size of job updated: 512
+	512  -  MemoryUsage of job (MB)
+	524844  -  ResidentSetSize of job (KB)
+...
+006 (174738.000.000) 02/15 20:27:35 Image size of job updated: 575
+	575  -  MemoryUsage of job (MB)
+	589732  -  ResidentSetSize of job (KB)
+...
+006 (174738.000.000) 02/15 20:32:37 Image size of job updated: 614
+	614  -  MemoryUsage of job (MB)
+	629372  -  ResidentSetSize of job (KB)
+...
+006 (174738.000.000) 02/15 20:37:37 Image size of job updated: 732
+	732  -  MemoryUsage of job (MB)
+	750040  -  ResidentSetSize of job (KB)
+...
+006 (174738.000.000) 02/15 20:39:40 Image size of job updated: 832
+	832  -  MemoryUsage of job (MB)
+	852696  -  ResidentSetSize of job (KB)
+...
+005 (174738.000.000) 02/15 20:39:41 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:44:51, Sys 0 00:00:17  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:44:51, Sys 0 00:00:17  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	9443  -  Run Bytes Sent By Job
+	73867896  -  Run Bytes Received By Job
+	9443  -  Total Bytes Sent By Job
+	73867896  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :    90672  1000000   1215292 
+	   Memory (MB)          :      832     2100      2100 
+...

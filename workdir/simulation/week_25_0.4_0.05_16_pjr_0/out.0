@@ -1,0 +1,38 @@
+arguments:
+0 = rank target.memory <= my.requestmemory && target.cpus <= my.requestcpus = requirements 0 = rank my.cpus <= target.requestcpus = requirements 0 0.99 sg_caches_shared.csv dummycluster.csv sg_machines_shared_cache.csv week_25_0.4_0.05_16_input.json week_25_0.4_0.05_16_pjr_0 6.0 _condor_stderr
+_condor_stdout
+condor_exec.exe
+dummycluster.csv
+sg_caches_shared.csv
+sg_machines_shared_cache.csv
+week_25_0.4_0.05_16_input.json
+week_25_0.4_0.05_16_input.json
+sg_machines_shared_cache.csv
+dummycluster.csv
+sg_caches_shared.csv
+Cloning into 'lapis'...
+Cloning into 'classad'...
+Cloning into 'usim'...
+after git clone
+dir_18223
+Collecting pip
+  Downloading https://files.pythonhosted.org/packages/54/0c/d01aa759fdc501a58f431eb594a17495f15b88da142ce14b5845662c13f3/pip-20.0.2-py2.py3-none-any.whl (1.4MB)
+Installing collected packages: pip
+  Found existing installation: pip 19.2.3
+    Uninstalling pip-19.2.3:
+      Successfully uninstalled pip-19.2.3
+Successfully installed pip-20.0.2
+/ceph/tfesenbecker/week_25_0.4_0.05_16_pjr_0.log
+C
+POSIX
+en_US.utf8
+6.0, week_25_0.4_0.05_16_pjr_0, week_25_0.4_0.05_16_input.json, sg_machines_shared_cache.csv, dummycluster.csv
+week_25_0.4_0.05_16_input.json sg_machines_shared_cache.csv dummycluster.csv /ceph/tfesenbecker/week_25_0.4_0.05_16_pjr_0.log 6.0 0.99
+total 12K
+drwxr-xr-x 3 root  root 4.0K Feb 15 18:11 .
+drwxr-xr-x 3 root  root 4.0K Feb 15 18:11 ..
+drwx------ 3 12207 1200 4.0K Feb 15 18:12 dir_18223
+total 12K
+drwxr-xr-x 3 root root 4.0K Feb 15 18:11 .
+drwxr-xr-x 3 root root 4.0K Feb 15 18:11 ..
+drwxr-xr-x 3 root root 4.0K Feb 15 18:11 execute

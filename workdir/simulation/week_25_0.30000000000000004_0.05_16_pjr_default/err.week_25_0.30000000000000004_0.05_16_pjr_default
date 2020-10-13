@@ -1,0 +1,22 @@
+Unable to find image 'mschnepf/slc7-condocker:python37' locally
+python37: Pulling from mschnepf/slc7-condocker
+5b3f21ee06c1: Already exists
+d24c2ad0abdf: Already exists
+f66316910dbb: Already exists
+f0ec22d6d641: Already exists
+6d6628dfbef3: Already exists
+da3e7782f5ae: Already exists
+e76337196ec7: Already exists
+54a4337d4135: Already exists
+76c8ad70692f: Pulling fs layer
+76c8ad70692f: Verifying Checksum
+76c8ad70692f: Download complete
+76c8ad70692f: Pull complete
+Digest: sha256:89ea731e8b12bcd79934bd286a9c79582192dda726cb1ee66d16e1dd2ced8576
+Status: Downloaded newer image for mschnepf/slc7-condocker:python37
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Cloning into 'lapis'...
+Cloning into 'classad'...
+Cloning into 'usim'...
+Switched to a new branch 'feature/filebasedhitratecaching'
+Removing statistic configuration as no whitelist has been defined.

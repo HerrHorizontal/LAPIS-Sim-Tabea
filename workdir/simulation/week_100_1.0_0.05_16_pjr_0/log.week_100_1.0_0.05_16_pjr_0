@@ -1,0 +1,92 @@
+000 (174438.000.000) 02/15 18:15:00 Job submitted from host: <129.13.101.151:9618?addrs=[2a00-1398-5-fe01-ec4-7aff-fede-e4ae]-9618+129.13.101.151-9618&noUDP&sock=9929_0bef_4>
+...
+009 (174438.000.000) 02/15 18:21:26 Job was aborted by the user.
+	via condor_rm (by user tfesenbecker)
+...
+000 (174571.000.000) 02/15 18:22:03 Job submitted from host: <129.13.101.151:9618?addrs=[2a00-1398-5-fe01-ec4-7aff-fede-e4ae]-9618+129.13.101.151-9618&noUDP&sock=9929_0bef_4>
+...
+009 (174571.000.000) 02/15 18:23:24 Job was aborted by the user.
+	via condor_rm (by user tfesenbecker)
+...
+000 (174704.000.000) 02/15 18:24:20 Job submitted from host: <129.13.101.151:9618?addrs=[2a00-1398-5-fe01-ec4-7aff-fede-e4ae]-9618+129.13.101.151-9618&noUDP&sock=9929_0bef_4>
+...
+001 (174704.000.000) 02/15 18:32:31 Job executing on host: <129.13.102.145:9618?addrs=129.13.102.145-9618&noUDP&sock=24637_d349_1309>
+...
+006 (174704.000.000) 02/15 18:32:39 Image size of job updated: 16
+	16  -  MemoryUsage of job (MB)
+	17160  -  ResidentSetSize of job (KB)
+...
+005 (174704.000.000) 02/15 18:32:42 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3202  -  Run Bytes Sent By Job
+	84099088  -  Run Bytes Received By Job
+	3202  -  Total Bytes Sent By Job
+	84099088  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :    92351  1000000   1022460 
+	   Memory (MB)          :       16     2100      2100 
+...
+000 (174837.000.000) 02/15 19:51:19 Job submitted from host: <129.13.101.151:9618?addrs=[2a00-1398-5-fe01-ec4-7aff-fede-e4ae]-9618+129.13.101.151-9618&noUDP&sock=9929_0bef_4>
+...
+001 (174837.000.000) 02/15 20:39:25 Job executing on host: <129.13.101.128:9618?addrs=129.13.101.128-9618&alias=ms01.etp.kit.edu&noUDP&sock=startd_12520_41d1_4>
+...
+006 (174837.000.000) 02/15 20:39:33 Image size of job updated: 2
+	1  -  MemoryUsage of job (MB)
+	2044  -  ResidentSetSize of job (KB)
+...
+006 (174837.000.000) 02/15 20:44:34 Image size of job updated: 429
+	429  -  MemoryUsage of job (MB)
+	439560  -  ResidentSetSize of job (KB)
+...
+006 (174837.000.000) 02/15 20:49:34 Image size of job updated: 478
+	478  -  MemoryUsage of job (MB)
+	489516  -  ResidentSetSize of job (KB)
+...
+006 (174837.000.000) 02/15 20:54:34 Image size of job updated: 504
+	504  -  MemoryUsage of job (MB)
+	516228  -  ResidentSetSize of job (KB)
+...
+006 (174837.000.000) 02/15 20:59:35 Image size of job updated: 520
+	520  -  MemoryUsage of job (MB)
+	532992  -  ResidentSetSize of job (KB)
+...
+006 (174837.000.000) 02/15 21:04:35 Image size of job updated: 576
+	576  -  MemoryUsage of job (MB)
+	590808  -  ResidentSetSize of job (KB)
+...
+006 (174837.000.000) 02/15 21:09:36 Image size of job updated: 599
+	599  -  MemoryUsage of job (MB)
+	613500  -  ResidentSetSize of job (KB)
+...
+006 (174837.000.000) 02/15 21:14:37 Image size of job updated: 635
+	635  -  MemoryUsage of job (MB)
+	650428  -  ResidentSetSize of job (KB)
+...
+006 (174837.000.000) 02/15 21:19:37 Image size of job updated: 689
+	689  -  MemoryUsage of job (MB)
+	705896  -  ResidentSetSize of job (KB)
+...
+006 (174837.000.000) 02/15 21:23:18 Image size of job updated: 730
+	730  -  MemoryUsage of job (MB)
+	747672  -  ResidentSetSize of job (KB)
+...
+005 (174837.000.000) 02/15 21:23:19 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:42:38, Sys 0 00:00:19  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:42:38, Sys 0 00:00:19  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	10018  -  Run Bytes Sent By Job
+	84099176  -  Run Bytes Received By Job
+	10018  -  Total Bytes Sent By Job
+	84099176  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.00        1         1 
+	   Disk (KB)            : 100661     1000000   1913897 
+	   Memory (MB)          :    730        2100      2176 
+...

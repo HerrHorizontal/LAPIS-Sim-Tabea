@@ -1,0 +1,3 @@
+WARNING: Your kernel does not support swap limit capabilities or the cgroup is not mounted. Memory limited without swap.
+Switched to a new branch 'feature/filebasedhitratecaching'
+Removing statistic configuration as no whitelist has been defined.

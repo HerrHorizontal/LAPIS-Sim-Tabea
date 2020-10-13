@@ -1,0 +1,46 @@
+000 (174891.000.000) 02/16 21:04:08 Job submitted from host: <129.13.101.151:9618?addrs=[2a00-1398-5-fe01-ec4-7aff-fede-e4ae]-9618+129.13.101.151-9618&noUDP&sock=9929_0bef_4>
+...
+001 (174891.000.000) 02/16 21:05:16 Job executing on host: <129.13.102.193:9618?addrs=129.13.102.193-9618&noUDP&sock=1593_3e75_4>
+...
+006 (174891.000.000) 02/16 21:05:24 Image size of job updated: 21
+	21  -  MemoryUsage of job (MB)
+	21776  -  ResidentSetSize of job (KB)
+...
+005 (174891.000.000) 02/16 21:05:42 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	10126  -  Run Bytes Sent By Job
+	73867896  -  Run Bytes Received By Job
+	10126  -  Total Bytes Sent By Job
+	73867896  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :    90679  1000000  18199133 
+	   Memory (MB)          :       21     2100      2100 
+...
+000 (174907.000.000) 02/16 21:06:36 Job submitted from host: <129.13.101.151:9618?addrs=[2a00-1398-5-fe01-ec4-7aff-fede-e4ae]-9618+129.13.101.151-9618&noUDP&sock=9929_0bef_4>
+...
+001 (174907.000.000) 02/16 21:07:15 Job executing on host: <129.13.102.193:9618?addrs=129.13.102.193-9618&noUDP&sock=1593_3e75_4>
+...
+006 (174907.000.000) 02/16 21:07:24 Image size of job updated: 21
+	21  -  MemoryUsage of job (MB)
+	21648  -  ResidentSetSize of job (KB)
+...
+006 (174907.000.000) 02/16 21:12:25 Image size of job updated: 513
+	513  -  MemoryUsage of job (MB)
+	525884  -  ResidentSetSize of job (KB)
+...
+006 (174907.000.000) 02/16 21:17:26 Image size of job updated: 522
+	522  -  MemoryUsage of job (MB)
+	535156  -  ResidentSetSize of job (KB)
+...
+006 (174907.000.000) 02/16 21:42:29 Image size of job updated: 538
+	538  -  MemoryUsage of job (MB)
+	551392  -  ResidentSetSize of job (KB)
+...
+009 (174959.000.000) 02/17 09:02:16 Job was aborted by the user.
+	via condor_rm (by user tfesenbecker)
+...
