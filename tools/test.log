@@ -1,6 +1,0 @@
-# DML 
-# CONTEXT-DATABASE: lapis 
-drone_status_caching,pool=<Drone:\ 140456733661392\ sm01>,pool_type=drone,tardis=lapis-1581752074.347202 claimed_slots=0,free_slots=24 0
-
-resource_status,pool=<Drone:\ 140456733661392\ sm01>,pool_configuration=None,pool_type=drone,resource_type=cores,tardis=lapis-1581752074.347202 requested_ratio=0.0,used_ratio=0.0 0
-

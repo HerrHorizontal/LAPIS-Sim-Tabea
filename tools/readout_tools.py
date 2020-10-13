@@ -24,8 +24,7 @@ def get_job_events_from_log(log_file):
               "r") as log:
         for line in log:
             readline = json.loads(line)
-            if readline["message"] == "job_event" and readline.get("wall_time",
-                                                                   None):
+            if readline["message"] == "job_event" and readline.get("wall_time", None):
 
     return
 
